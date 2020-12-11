@@ -1,0 +1,28 @@
+{
+    "name": "DailyNotes",
+    "description": "Simple notes taking app.",
+    "version": "1.0.0",
+    "main": "main.js",
+    "author": "3B7Q",
+    "scripts": {
+        "start": "electron .",
+        "watch": "nodemon --exec electron .",
+        "build": "electron-builder build",
+        "startWithTransparentOption": "electron --enable-transparent-visuals .",
+        "startWithAllOptions": "electron --enable-transparent-visuals --disable-gpu ."
+    },
+    "dependencies": {
+        "bootstrap": "^4.5.3",
+        "bootstrap4-toggle": "^3.6.1",
+        "electron-db": "^0.15.7",
+        "electron-window-state": "^5.0.3",
+        "jquery": "^3.5.1",
+        "jquery.nicescroll": "^3.7.6",
+        "jsstore": "^3.11.4",
+        "nodemon": "^2.0.6"
+    },
+    "devDependencies": {
+        "electron": "^11.0.3",
+        "electron-builder": "^22.9.1"
+    }
+}
